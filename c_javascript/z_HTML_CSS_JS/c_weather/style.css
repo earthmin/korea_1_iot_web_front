@@ -1,0 +1,26 @@
+#wearther-container {
+  background: url('./sunny.jpg') no-repeat;
+  background-size: cover;
+  width: 880px;
+  height: 550px;
+  display: flex;
+}
+/* 
+.sunny-seach {
+  width: 420px;
+  height: 850px;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  border-radius: 20px, 0px, 0px, 0px;
+  float: right;
+} */
+
+#right-box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(153, 151, 151);
+  display: flex;
+  float: right;
+  box-shadow: inset;
+}
