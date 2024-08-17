@@ -8,12 +8,38 @@
 </head>
 <body>
   <div id="wearther-container">
-    <p>Monday, April 8, 2024</p>
-    <div class="sunny-box">   
-      <div id="right-box"></div>
+    <div id="left-box">
+      <p>Monday, April 8, 2024</p>
+      <div id="location">
+        <div id="temperature">-3°C seoul 🌤️</div>
+        <!-- <div id="seoul">seoul</div> -->
+      </div>
+    </div>
+    <div class="sunny-box">  
+      <!-- 검색박스  -->
+      <input type="text" id="search"
+      placeholder="search" />
+      <div class="datail-box">
+        <!-- 날씨 디테일들 -->
+      <div id="weather">🌎Weather Details</div>
+      <hr />
+      <ul>
+      <li>Max/Min Temp</li>
+    </ul>
+      <ul>
+      <li>Humidity</li>
+    </ul>
+    <ul>
+      <li>Wind</li>
+    </ul>
+    <ul> 
+    <li>Cloudy </li>
+    </ul>     
+      </div>
+    </div>      
     </div>
   </div>
-  <h1 id="header"></h1>
-  <script src="./main.js"></script>
+    <h1 id="header"></h1>
+    <script src="./main.js"></script>
 </body>
 </html>

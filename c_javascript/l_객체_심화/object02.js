@@ -20,8 +20,8 @@
 // 객체 정의
 let data = [
   {
-    name: '이승아',
-    age: 50,
+    name: '지마루',
+    age: 26,
     job: 'developer',
     hobby: {
       first: 'exercise',
@@ -30,8 +30,8 @@ let data = [
     lecture: ['java', 'python', 'dbms']
   },
   {
-    name: '이도경',
-    age: 50,
+    name: '지루마',
+    age: 26,
     job: 'employee',
     hobby:  {
       first: 'health',

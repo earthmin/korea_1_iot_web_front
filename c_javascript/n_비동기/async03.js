@@ -95,4 +95,4 @@ fetchData()
   .then(processResult => console.log(processResult)) // 3초
   .catch(error => console.error(error));
 
-console.log('메인 로직의 실행 (시간이 많이 걸리지 않는 작업)'
+console.log('메인 로직의 실행 (시간이 많이 걸리지 않는 작업)');

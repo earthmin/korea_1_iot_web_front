@@ -14,7 +14,7 @@
 // : 소수점 이하 N자리까지만 출력 (반올림)
 
 let num = 123.4567;
-console.log(num.toFixed(3)); // 123.457
+console.log(num.toFixed(1)); // 123.457
 console.log(num.toFixed(5)); // 123.45670
 console.log(num.toFixed()); // 123
 
