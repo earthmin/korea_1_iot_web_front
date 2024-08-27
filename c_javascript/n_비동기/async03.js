@@ -96,3 +96,5 @@ fetchData()
   .catch(error => console.error(error));
 
 console.log('메인 로직의 실행 (시간이 많이 걸리지 않는 작업)');
+
+
